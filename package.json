@@ -1,13 +1,16 @@
 {
   "name": "jest_tdd",
+  "jest": {
+    "verbose": true
+  },
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
   "directories": {
     "test": "test"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,9 @@
   },
   "homepage": "https://github.com/adagar/jest_tdd#readme",
   "devDependencies": {
-    "jest": "^24.7.1"
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "babel-jest": "^24.8.0"
   }
 }
