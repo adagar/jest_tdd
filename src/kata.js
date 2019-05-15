@@ -1,4 +1,4 @@
-const add = string => {
+const add = (string) => {
   let separator = ",";
   let sum = 0;
   let negs = [];
