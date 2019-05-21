@@ -1,6 +1,7 @@
 {
   "name": "jest_tdd",
   "jest": {
+    "testPathIgnorePatterns": ["past"],
     "verbose": true
   },
   "version": "1.0.0",
